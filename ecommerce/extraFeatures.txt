@@ -1,2 +1,8 @@
+Project Flow :
+app.js (root) (call routes)
+routes (take form Controller)
+controller (use models)
+models (define database schema)
+
 Sign in and Sign up
 Google and Facebook login using Passportjs
