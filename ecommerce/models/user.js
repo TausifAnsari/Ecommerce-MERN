@@ -36,7 +36,8 @@ var userSchema = new mongoose.Schema({
 }, {timestamps: true}
 );
 
-// virtual field
+// virtual field 
+// For creating a hashed password or encrypt the password using SHA1 Encryption Algorithm
 userSchema
     .virtual('password')
     .set((password) => {
